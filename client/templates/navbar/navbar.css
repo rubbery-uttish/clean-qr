@@ -1,0 +1,16 @@
+.template-navbar {
+    background-color: gray;
+}
+
+.template-navbar .navbar-button {
+    text-align: center;
+}
+
+.template-navbar .navbar-button a {
+    color: inherit;
+}
+
+.template-navbar .navbar-button  i {
+    padding: 10px; 
+    font-size: 40px;
+}

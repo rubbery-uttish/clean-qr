@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis);
 
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
 .stamford-blue {
     color: #0083C8;
 }

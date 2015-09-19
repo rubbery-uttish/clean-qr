@@ -1,0 +1,44 @@
+.template-task-card {
+	border: 2px solid #CCCCCC;
+	box-shadow: 2px 2px #CCCCCC;
+	padding-bottom: 20px;
+	height: 225px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.template-task-card #task-card-image {
+	height: 225px;
+	display: flex;
+	align-content: center;
+}
+
+.template-task-card #task-card-info {
+	margin-left: -15px;
+}
+
+.template-task-card p {
+	font-size: 1.1em;
+}
+
+.template-task-card h1 {
+	font-size: 1.5em;
+	margin-top: 10px;
+}
+
+.template-task-card h2 {
+	font-size: 1.3em;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.template-task-card img {
+	width: 90%;
+	max-width: 275px;
+	margin: auto;
+}
+
+.template-task-card span {
+	color: green;
+	font-weight: bold;
+}

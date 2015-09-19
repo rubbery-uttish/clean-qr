@@ -5,6 +5,7 @@
 	height: 225px;
 	margin-top: 10px;
 	cursor: pointer;
+	background-color: white;
 }
 
 .template-task-card #task-card-image {

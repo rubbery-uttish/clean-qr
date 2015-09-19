@@ -1,0 +1,24 @@
+.template-task-card {
+	border: 2px solid #CCCCCC;
+	box-shadow: 2px 2px #CCCCCC;
+	padding-bottom: 20px;
+}
+
+.template-task-card p {
+	font-size: 2em;
+}
+
+.template-task-card h1 {
+	margin-top: 10px;
+}
+
+.template-task-card img {
+	width: 75%;
+/*	display: block;
+	margin: 0 auto;*/
+}
+
+.template-task-card span {
+	color: green;
+	font-weight: bold;
+}

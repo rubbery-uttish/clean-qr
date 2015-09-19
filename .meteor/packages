@@ -11,3 +11,5 @@ nimble:restivus
 iron:router
 twbs:bootstrap
 fortawesome:fontawesome
+cfs:standard-packages
+cfs:filesystem

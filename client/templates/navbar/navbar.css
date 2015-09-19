@@ -2,8 +2,17 @@
     background-color: gray;
 }
 
+.template-navbar h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 5px;
+    margin: 0px;
+    vertical-align: middle;
+}
+
 .template-navbar .navbar-button {
     text-align: center;
+    height: 100%;
 }
 
 .template-navbar .navbar-button a {

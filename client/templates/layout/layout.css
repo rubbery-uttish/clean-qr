@@ -1,5 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis);
 
+#main {
+    height: 100vh;
+}
+
+#navbar {
+    height: 60px;
+}
+
+#content {
+    height: calc(100% - 60px);
+}
+
+#content > * {
+    height: 100%;
+}
+
 body {
     font-family: 'Dosis', sans-serif;
 }
@@ -26,4 +42,8 @@ body {
 
 .stamford-green-bg {
     background-color: #80B636;
+}
+
+.white {
+    color: #FFF;
 }

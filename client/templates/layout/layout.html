@@ -1,6 +1,14 @@
 <template name="layout">
-    <div id="main" class="container">
-        {{> navbar}}
-        {{> yield}}
+    <div id="main" class="container stamford-gray-bg">
+        <div id="navbar" class="row">
+            <div class="col-xs-12">
+                {{> navbar}}
+            </div>
+        </div>
+        <div id="content" class="row">
+            <div class="col-xs-12">
+                {{> yield}}
+            </div>
+        </div>
     </div>
 </template>

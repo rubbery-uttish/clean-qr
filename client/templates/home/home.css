@@ -1,0 +1,36 @@
+.template-home {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.template-home > h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.template-home > * {
+    display: table-row;
+}
+
+.template-home > * > * {
+    display: table-cell;
+    font-size: 60px;
+    vertical-align: middle;
+}
+
+.template-home-button .icon-button {
+    width: 240px;
+    height: 240px;
+    border-radius: 240px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    display: table;
+    cursor: pointer;
+}
+
+.template-home-button i {
+    vertical-align: middle;
+    display: table-cell;
+}

@@ -1,3 +1,16 @@
+<template name="homeButton">
+    <div class="template-home-button" id="{{name}}">
+        <div class="icon-container">
+            <div class="icon-button stamford-blue-bg white">
+                <i class="fa {{icon}}"></i>
+            </div>
+        </div>
+    </div>
+</template>
+
 <template name="home">
-	<h1>Clean QR</h1>
+    <div class="template-home">
+        {{> homeButton name="qr-code" link="/search" icon="fa-qrcode"}}
+        {{> homeButton name="list" link="/list" icon="fa-list"}}
+    </div>
 </template>

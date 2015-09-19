@@ -27,3 +27,8 @@ body {
 .stamford-green-bg {
     background-color: #80B636;
 }
+
+.no-padding {
+	padding-left: 0px;
+	padding-right: 0px;
+}

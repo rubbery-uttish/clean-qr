@@ -13,6 +13,10 @@
 	align-content: center;
 }
 
+.template-task-card #task-card-info {
+	margin-left: -15px;
+}
+
 .template-task-card p {
 	font-size: 1.1em;
 }

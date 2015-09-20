@@ -18,7 +18,7 @@ function insertLocation(name, desc, lng, lat){
 generateContent = function() {
 	if (Tasks.find({}).count() == 0) {
 		insertLocation('Stamford Innovation Center', 
-                'Some team left all their stuff here after pulling an all nighter.' +  
+                'Some team left all their stuff here after pulling an all nighter. ' +  
                 'This job will be considered complete once all the stuff on the table is thrown away',
                 -73.538734,
                 41.053430);
@@ -29,20 +29,3 @@ generateContent = function() {
 
     }
 }
-
-/*function setDefaultPicture() {
-	var fs = Npm.require('fs');
-
-	try {
-		var defaultPic = fs.readFileSync('/stamford-icenter.jpg');
-		var newFile = new FS.File();
-
-        newFile.attachData(defaultPic, {type: 'image/jpeg'}, function(error){
-            //if(error) throw error;
-            newFile.name('default_pic.png');
-            return Images.insert(newFile);
-        });
-	} catch (error) {
-		console.log("Error inserting default picture into DB");
-	}
-}*/

@@ -1,0 +1,35 @@
+<template name="task">
+    <div class="template-task">
+        <div class="top-half">
+            <div>
+                <div class="row">
+                    <h1>{{this.title}}</h1>
+                </div>
+                <div class="row">
+                    <div class="reward col-xs-8 col-xs-offset-2 stamford-green-bg white">
+                        <span class="title">Reward:</span><span class="amount">{{formatAsMoney this.balance}}</span>
+                    </div>
+                    <div class="description col-xs-12 col-sm-8 col-sm-offset-2">
+                        <p>{{this.description}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-half">
+            <div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        {{> circleButton name="submit" icon="fa-check"}}
+                    </div>
+                    <div class="col-xs-6">
+                        {{> circleButton name="donate" icon="fa-heart"}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form id="image-submit" action="/" method="post" enctype="multipart/form-data">
+            <input id="image-submit-file" type="file" accept="image/*" capture name="result" />
+            <input id="image-upload" type="submit" value="Upload">
+        </form>
+    </div>
+</template>

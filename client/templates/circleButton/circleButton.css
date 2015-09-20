@@ -1,0 +1,16 @@
+.template-circle-button .icon-button {
+    width: 140px;
+    height: 140px;
+    border-radius: 140px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    display: table;
+    cursor: pointer;
+}
+
+.template-circle-button i {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 60px;
+}

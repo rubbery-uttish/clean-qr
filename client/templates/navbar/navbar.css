@@ -6,6 +6,10 @@
     color: inherit;
 }
 
+.template-navbar a:hover {
+    text-decoration: inherit;
+}
+
 .template-navbar h1 {
     text-align: center;
     font-size: 40px;

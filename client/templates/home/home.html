@@ -1,16 +1,6 @@
-<template name="homeButton">
-    <div class="template-home-button" id="{{name}}">
-        <div class="icon-container">
-            <div class="icon-button stamford-blue-bg white">
-                <i class="fa {{icon}}"></i>
-            </div>
-        </div>
-    </div>
-</template>
-
 <template name="home">
     <div class="template-home">
-        {{> homeButton name="map" link="/search" icon="fa-map-marker"}}
-        {{> homeButton name="list" link="/list" icon="fa-list"}}
+        {{> circleButton name="map" link="/locate" icon="fa-map-marker"}}
+        {{> circleButton name="list" link="/taskList" icon="fa-list"}}
     </div>
 </template>
